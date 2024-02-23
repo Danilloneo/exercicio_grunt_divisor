@@ -1,0 +1,74 @@
+@corDoTexto: #fff;
+@cordOBotao: rgb(227, 148, 28);
+
+
+body {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    height: 90vh;
+}
+
+h1 {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 2em;
+    color: @corDoTexto;
+}
+
+.dividir-form {
+    max-width: 800px;
+
+
+}
+
+label {
+    font-size: 2em;
+    color: @corDoTexto;
+}
+
+input {
+    margin: 16px auto 16px;
+    display: block;
+    padding: 16px;
+    font-size: 1.3em;
+    text-align: center;
+    border: none;
+}
+
+.resultado {
+    margin-top: 50px;
+    color: @corDoTexto;
+    font-size: 2em;
+    border: 6px dotted @corDoTexto;
+    display: none;
+}
+
+#resultado-valor {
+    display: block;
+    font-size: 2em;
+    color: @corDoTexto;
+}
+
+button {
+    padding: 16px;
+    background-color: @cordOBotao;
+    color: @corDoTexto;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 50px;
+    color: @corDoTexto;
+    font-size: 2em;
+}
